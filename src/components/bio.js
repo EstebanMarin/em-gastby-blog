@@ -37,19 +37,23 @@ const Bio = () => {
         layout="fixed"
         formats={["AUTO", "WEBP", "AVIF"]}
         src="../images/profile-pic.png"
-        width={50}
-        height={50}
+        width={80}
+        height={80}
         quality={95}
         alt="Profile picture"
       />
       {author?.name && (
-        <p>
-          Written by <strong>{author.name}</strong>: {author?.summary || null}
-          {` `}
-          <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            twitter
-          </a>
-        </p>
+        <>
+          <p>
+            Written by <strong>{author.name}</strong>: {author?.summary || null}{" "}
+            <br />
+            <a href={`https://www.linkedin.com/in/${social?.linkedin || ``}`}>
+              linkedin
+            </a>
+            <strong> / </strong>
+            <a href={`https://twitter.com/${social?.twitter || ``}`}>twitter</a>
+          </p>
+        </>
       )}
     </div>
   )

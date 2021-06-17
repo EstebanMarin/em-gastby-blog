@@ -3,12 +3,13 @@ module.exports = {
     title: `I write to promote myself`,
     author: {
       name: `Esteban Marin`,
-      summary: `I love getting paid for learning.`,
+      summary: `I love getting paid to learn. Functional programming and Polyglotism is the new norm. 🙏`,
     },
     description: `A gatsby, full blown blog, because why not?`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    siteUrl: `https://www.estebanmarin.com/`,
     social: {
-        twitter: `Esteban08240516`,
+      twitter: `Esteban08240516`,
+      linkedin: `estebanmarincom`,
     },
   },
   plugins: [
