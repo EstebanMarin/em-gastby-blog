@@ -7,9 +7,10 @@ description: "when its now enought with a to-do app"
 > Where you see an absolute overkill, I see amazing learning oportunities
 
 
+# why?
+
 I wanted a blog to promote myself, without actually doing it myself. While at the same time making the building process a learning experience that I could profit from in the long run.
 
-# why?
 
 The target that I set for the learning process:
 - The building process of the blog should give solid skills for a code challenge interview. Furthermore, create an infrastructure to facilitate these types of interviews in the future.
